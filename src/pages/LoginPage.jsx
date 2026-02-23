@@ -126,7 +126,7 @@ export default function LoginPage({ onLogin }) {
               margin: 0,
             }}
           >
-            Docssss
+            Doc
           </h1>
           <p style={{ fontSize: 14, color: C.muted, marginTop: 4 }}>
             Secure document signing platform
