@@ -31,7 +31,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           password: ${{ secrets.SERVER_PASSWORD }}
           source: "dist/*"
-          target: "/var/www/new_frontend/updated_frontend"
+          target: "/var/www/new_frontend/updated_frontend/dist"
           strip_components: 1
 
       - name: Restart Nginx
